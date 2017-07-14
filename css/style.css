@@ -1,0 +1,47 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	padding-top: 70px;
+  /* Margin bottom by footer height */
+   margin-bottom: 60px; 
+}
+.logo{
+  padding: 3em 0px;
+}
+.thara{
+  right: 4px;
+}
+.topImg{
+  position: absolute;  
+}
+.midImg{
+  position: relative;
+  top: 10px;
+
+}
+.leftImg{
+  position: relative;
+  right: 4px;
+  top: 3px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000000;
+}
+.text-muted {
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
